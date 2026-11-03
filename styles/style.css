@@ -1,4 +1,6 @@
 .header {
+  min-height: 293px;
+  padding: 0 50px;
 }
 .header__menu {
 }
@@ -24,7 +26,12 @@
 .email {
 }
 .cover {
+  min-height: 757px;
+  padding: 50px;
   background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .overlay {
 }
@@ -45,6 +52,8 @@
 .bet-button {
 }
 .lots {
+  min-height: 723px;
+  margin-top: 180px;
 }
 .lots__heading {
 }
@@ -72,6 +81,8 @@
 .lots__look-more-link {
 }
 .about {
+  min-height: 595px;
+  margin-top: 120px;
 }
 .about__column {
 }
@@ -84,6 +95,11 @@
 .about__title {
 }
 .about__text {
+}
+.footer {
+  min-height: 180px;
+  margin-top: 180px;
+  padding: 0 50px;
 }
 .footer__menu {
 }
