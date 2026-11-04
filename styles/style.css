@@ -7,11 +7,8 @@
 }
 .header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 34px;
   list-style: circle;
-}
-.header__links-list-item {
-  padding-left: 4px;
 }
 .header__links-list-item_no-bullit {
   list-style: none;
@@ -23,11 +20,14 @@
   text-decoration: none;
 }
 .link {
-  text-decoration: none;
-  border-bottom: 1px solid black;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 20%;
 }
 .header__logo {
+  padding: 0 6px;
   width: 148px;
+  height: 105px;
 }
 .address {
   display: flex;
@@ -73,7 +73,7 @@
 .cover__title {
   display: flex;
   flex-direction: column;
-  row-gap: 23px;
+  row-gap: 18px;
   margin-top: 110px;
   text-transform: uppercase;
   font-weight: 700;
@@ -164,8 +164,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
-  text-decoration: underline;
-  text-underline-offset: 0.16em;
+  text-underline-offset: 10%;
   text-transform: uppercase;
   color: #ffffff;
 }
